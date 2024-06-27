@@ -1,0 +1,356 @@
+/* /* /* 
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.container{
+  color: seagreen;
+  border: 2px;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #282c34;
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+  border: 2ch;
+  background-color: white;
+  
+}
+.btn-primary{
+  background-color:skyblue;
+  border: #61dafb;
+  border-radius: 2px;
+  border-spacing: 2pc;
+}
+#demo{
+  padding-top:0.5in;
+  font-size: "24px";
+}
+/* App.css */
+
+.app.light {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+.app.dark {
+  background-color: #333;
+  color: white;
+}
+
+.bg-dark {
+  background-color: #333 !important;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.text-dark {
+  color: black !important;
+}
+
+.text-light {
+  color: white !important;
+}
+
+ */
+/* App.css */
+
+body.light {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+body.dark {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.navbar-dark {
+  background-color: #343a40 !important;
+}
+
+.navbar-light {
+  background-color: #f8f9fa !important;
+}
+
+.text-dark {
+  color: black !important;
+}
+
+.text-light {
+  color: white !important;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.container.bg-dark {
+  background-color: #282c34;
+  color: white;
+}
+
+.container.bg-light {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 10px #007bff;
+  
+} */
+/* App.css */
+
+/* General Body Styles */
+body.light {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+body.dark {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+/* Navbar Styles */
+.navbar-dark {
+  background-color: #343a40 !important;
+}
+
+.navbar-light {
+  background-color: #f8f9fa !important;
+}
+
+/* Text Styles */
+.text-dark {
+  color: black !important;
+}
+
+.text-light {
+  color: white !important;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  color: white;
+  margin: 5px;
+  transition: background-color 0.3s;
+  font-size: 14px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Container Styles */
+.container {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: inherit; /* Ensure background color matches the mode */
+  color: inherit;
+}
+
+/* Dark and Light Mode Containers */
+.container.bg-dark {
+  background-color: #282c34;
+  color: white;
+}
+
+.container.bg-light {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+/* Textarea Styles */
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: inherit;
+  color: inherit;
+  border: 1px solid #ccc;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 10px #007bff;
+}
+
+/* Header Styles */
+h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Paragraph Styles */
+p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Form Floating Styles */
+.form-floating {
+  margin-bottom: 20px;
+}
+
+/* Adjust Spacing between Buttons */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-container .btn-primary {
+  margin: 5px;
+} */
+/* App.css */
+
+/* General Body Styles */
+body.light {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+body.dark {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+/* Navbar Styles */
+.navbar-dark {
+  background-color: #343a40 !important;
+}
+
+.navbar-light {
+  background-color: #f8f9fa !important;
+}
+
+/* Text Styles */
+.text-dark {
+  color: black !important;
+}
+
+.text-light {
+  color: white !important;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  color: white;
+  margin: 5px;
+  transition: background-color 0.3s;
+  font-size: 14px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Container Styles */
+.container {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: inherit; /* Ensure background color matches the mode */
+  color: inherit;
+}
+
+/* Dark and Light Mode Containers */
+.container.bg-dark {
+  background-color: #282c34;
+  color: white;
+}
+
+.container.bg-light {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+/* Textarea Styles */
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: inherit;
+  color: inherit;
+  border: 1px solid #ccc;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 10px #007bff;
+}
